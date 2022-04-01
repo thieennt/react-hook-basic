@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  color: #fff;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th  {
+  border: 1px solid #dddddd;
+  background-color: #7e7c7c;
+  text-align: center;
+  padding: 8px;
+  color: #333;
+}
+
+.table-container {
+  background-color: #282c34;
+  color: #fff;
+  padding-top: 30px;
+
+  h4 {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+}
+
+.yt-search {
+
+  input {
+    outline: none;
+    width: 400px;
+  }
+
+  button {
+    outline: none;
+    border: none;
+    background-color: #969b99;
+    color: #000;
+    padding: 3px 5px;
+  }
+}
+
+.yt-result {
+  display: flex;
+  margin: 30px 250px;
+
+  .yt-iframe {
+    width: 350px;
+    height: 196px;
+  }
+
+  .yt-result-description {
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
+
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+      padding-top: 10px;
+    }
+
+    .created-at {
+      padding: 10px 0;
+    }
+
+    .author {
+      padding-bottom: 10px;
+      font-weight: bold;
+    }
+  }
+}
